@@ -1,0 +1,63 @@
+body{
+    .conocenosGrid{
+        display: grid;
+        grid-template-columns: 50vw 48vw;
+        grid-template-rows: 73vh;
+        p{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lobster', cursive;
+            color: black;
+            font-size: 20px;
+            line-height: 35px;
+            text-align: center;
+            align-self: center;
+        }
+        .slider{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                transition: opacity 0.5s;
+                &:first-child{
+                    opacity: 1;
+                }
+                &:target{
+                    opacity: 1;
+                }
+                img{
+                    width: 35vw;
+                    height: 75vh;
+                    object-fit: cover;
+                    border-radius: 10%;
+                    margin-left: 100px;
+                }
+            }
+        }
+        .menuConocenos{
+            text-align: center;
+            margin: 20px;
+            li{
+                display: inline-block;
+                text-align: center;
+                list-style: none;
+                a{
+                    display: inline-block;
+                    color: white;
+                    text-decoration: none;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    padding: 3px;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 15px;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}
