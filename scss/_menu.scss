@@ -1,0 +1,21 @@
+body{
+    .menuCompleto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tituloMenu{
+        font-family: 'Train One', cursive;
+        color: whitesmoke;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    .lista{
+        color: whitesmoke;
+        font-size: 20px;
+        letter-spacing: 4px;
+        line-height: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
