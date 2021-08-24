@@ -1,0 +1,52 @@
+body{
+    video.video3{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -100;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 40vh 45vh;
+        .containerGaleria{
+            justify-self: center;
+            a{
+                text-decoration: none;
+                .cards{
+                    background: rgba(0, 0, 0, 0.5);
+                    width: 300px;
+                    height: 40vh;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                    overflow: hidden;
+                    margin: 20px;
+                    text-align: center;
+                    transition: all 0.25s;
+                    &:hover{
+                        transform: translateY(-15px);
+                        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+                    }
+                    img{
+                        width:20vw;
+                        height: 25vh; 
+                        object-fit: contain;
+                    }
+                    h3{
+                        font-family: 'Train One', cursive;
+                        color: whitesmoke;
+                        font-size: 20px;
+                    }
+                    p{
+                        font-family: 'Lobster', cursive;
+                        font-size: 11px;
+                        color: whitesmoke;
+                    }
+                }
+            }
+        }
+    }
+  
+}

@@ -62,3 +62,45 @@ body .lista {
   letter-spacing: 4px;
   line-height: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
+
+body video.video3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100; }
+
+body .galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  grid-template-rows: 40vh 45vh; }
+  body .galeria .containerGaleria {
+    justify-self: center; }
+    body .galeria .containerGaleria a {
+      text-decoration: none; }
+      body .galeria .containerGaleria a .cards {
+        background: rgba(0, 0, 0, 0.5);
+        width: 300px;
+        height: 40vh;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s; }
+        body .galeria .containerGaleria a .cards:hover {
+          transform: translateY(-15px);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+        body .galeria .containerGaleria a .cards img {
+          width: 20vw;
+          height: 25vh;
+          object-fit: contain; }
+        body .galeria .containerGaleria a .cards h3 {
+          font-family: 'Train One', cursive;
+          color: whitesmoke;
+          font-size: 20px; }
+        body .galeria .containerGaleria a .cards p {
+          font-family: 'Lobster', cursive;
+          font-size: 11px;
+          color: whitesmoke; }
