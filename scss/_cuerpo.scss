@@ -1,0 +1,26 @@
+#textoPrincipal{
+    height: 85vh;
+}
+#h2Principal{
+    padding-top: 30vh;
+}
+.tituloPrincipal{
+    font-family:'Train One', cursive;
+    letter-spacing: 8px;
+    font-size: 25px;
+    color: white;
+}
+.tituloSecundario{
+    font-family:'Train One', cursive;
+    font-size: 50px;
+    color: white; 
+}
+.botonConocenos{
+    font-family:'Train One', cursive;
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: #03989E;
+        transition: 350ms linear;
+    } 
+}

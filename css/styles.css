@@ -1,0 +1,43 @@
+body video.video1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100; }
+
+body header {
+  background: rgba(0, 0, 0, 0.5); }
+  body header a {
+    text-decoration: none;
+    font-family: 'Train One', cursive;
+    color: white;
+    font-size: 18px; }
+    body header a:hover {
+      color: #03989E;
+      transition: 350ms linear; }
+
+#textoPrincipal {
+  height: 85vh; }
+
+#h2Principal {
+  padding-top: 30vh; }
+
+.tituloPrincipal {
+  font-family: 'Train One', cursive;
+  letter-spacing: 8px;
+  font-size: 25px;
+  color: white; }
+
+.tituloSecundario {
+  font-family: 'Train One', cursive;
+  font-size: 50px;
+  color: white; }
+
+.botonConocenos {
+  font-family: 'Train One', cursive;
+  text-decoration: none;
+  color: white; }
+  .botonConocenos:hover {
+    color: #03989E;
+    transition: 350ms linear; }
